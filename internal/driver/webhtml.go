@@ -1110,7 +1110,7 @@ makeTopTable({{.Total}}, {{.Top}})
         flameGraph.resetZoom();
     }, true);
 
-    var searchbox = document.getElementById("searchbox");
+    var searchbox = document.getElementById("search");
     var searchAlarm = null;
 
     function selectMatching() {
